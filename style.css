@@ -30,3 +30,7 @@ h1 {
     color: white;
     text-decoration: none;
 }
+.top-section {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
