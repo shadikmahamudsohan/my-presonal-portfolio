@@ -8,7 +8,7 @@ h1 {
 .orange-color {
     color: orange;
 }
-.top-section {
+.flexible-continer {
     display: flex;
 }
 .half-width {
@@ -21,7 +21,7 @@ h1 {
 .half-width P {
     color: #666;
     line-height: 20px;
-    font-size: 15px;
+    width: 90%;
 }
 .button {
     padding: 10px 40px;
@@ -34,22 +34,43 @@ h1 {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+/* dream big section */
+.dream-big {
+    margin-top: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* experiences section */
+.experiences {
+    padding: 50px;
+}
+.experiences div {
+    width: 80%;
+}
+.ecperience-card-area {
+    display: flex;
+}
+
 @media screen and (max-width: 900px) {
     .top-section {
       display: block;
       align-items: center;
       padding: 50px;
+      text-align: justify;
+    }
+    h1 {
+        text-align: center;
+        font-size: 40px;
     }
     .half-width {
         width: 100%;
         margin: 0px;
         margin-left: 0px;
+        margin-top: 20px;
     }
     .half-width img {
         width: 100%;
-    }
-    .half-width p {
-        /* padding: 50px; */
     }
     .orange-color {
         margin-top: 0;
